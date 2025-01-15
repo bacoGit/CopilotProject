@@ -26,7 +26,11 @@ img {
     height: auto;
 }
 /* Hide sections by default */
-#home, #about, #contact {
+#home {
+    display: block;
+}
+
+#about, #contact {
     display: none;
 }
 
